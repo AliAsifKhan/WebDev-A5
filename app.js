@@ -231,5 +231,88 @@ document.write('<br>'+c1+'x'+c2+'='+c3);
 
 //Task#6
 
-//
-//
+var tempC = 30;
+var tempF = (tempC * 9/5) + 32;
+document.write(tempC+'°C is '+tempF+' °F');
+
+var tempF = 90;
+var tempC = (tempF - 32) * 5/9;
+document.write('<br>'+tempF+'°F is '+tempC+' °C');
+
+//Task#7
+
+var item1Price = 650;
+var item2Price = 100;
+var item1Qty = 3;
+var item2Qty = 7;
+var shipping = 100;
+
+document.write('Price of item 1 is '+item1Price);
+document.write('<br>'+'Quantity of item 1 is '+item1Qty);
+document.write('<br>'+'Price of item 2 is '+item2Price);
+document.write('<br>'+'Quantity of item 2 is '+item2Qty);
+document.write('<br>'+'Shipping charges '+shipping);
+
+var totalCost = (item1Price*item1Qty)+(item2Price*item2Qty)+shipping;
+
+document.write('<br><br>'+'Total cost of your order is '+totalCost);
+
+//Task#8
+
+var marksTotal = 100;
+var marksStudent = 60;
+var percentage = marksStudent/marksTotal*100;
+
+document.write('<h1>Marks Sheet</h1>')
+document.write('<br>'+'Total marks: '+marksTotal);
+document.write('<br>'+'Marks obtained: '+marksStudent);
+document.write('<br>'+'Percentage: '+percentage+'%');
+
+//Task#9
+
+var usd = 10;
+var sr = 25;
+var pkr = (usd*104.8)+(sr*28);
+
+document.write('<h1>Currency in PKR</h1>')
+document.write('<br>'+'Total Currency in PKR: '+pkr);
+
+//Task#10
+
+var num1 = 99;
+num1=((num1 + 5)*10)/2;
+
+//Task#11
+
+var year = 2020;
+var birth = 1990;
+var age1 = year-birth;
+
+document.write('<h1>Age Calculator</h1>')
+document.write('<br>'+'Current Year: '+year);
+document.write('<br>'+'Birth Year: '+birth);
+document.write('<br>'+'Your Age: '+age1);
+
+//Task#12
+
+var rad = 4;
+var circum = 2*Math.PI*rad;
+var area = Math.PI*(rad**2);
+document.write('<h1>The Geometrizer</h1>')
+document.write('<br>The circumfrence is '+circum);
+document.write('<br>The area is '+area);
+
+//Task#13
+
+var snack = 'Bounty';
+var age2 = 25;
+var ageMax = 85;
+var daily = 2;
+var totalQty = ((ageMax-age2)*365.25)*2;
+
+document.write('<h1>The Lifetime Supply Calculator</h1>')
+document.write('<br>Favourite Snack: '+snack);
+document.write('<br>Current age: '+age2);
+document.write('<br>Estimated Maximum Age: '+ageMax);
+document.write('<br>Amount of snacks per day: '+daily);
+document.write('<br>You will need '+totalQty+' '+snack+' to last you until the ripe old age of '+ageMax);
