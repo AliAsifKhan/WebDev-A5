@@ -231,3 +231,4 @@ document.write('<br>'+c1+'x'+c2+'='+c3);
 
 //Task#6
 
+//
